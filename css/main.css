@@ -9,7 +9,7 @@ body {
 }
 
 .container{
-    padding: 60px 0;
+    padding: 10px 0;
     width: 90%;
     max-width: 1000px;
     margin: auto;
@@ -63,6 +63,7 @@ nav > a:hover{
     bottom: 0px;
     width: 100%;
 }
+
 
 header .text-header{
     display: flex;
@@ -134,10 +135,13 @@ main .container-about-us{
 /* GALERY */
 
 .service {
-    background: #fff;
+    background: rgb(73, 71, 73);
 
 }
 
+.container h2{
+    color: #fff;
+}
 .galery-service {
     display: flex;
     justify-content: space-evenly;
@@ -151,7 +155,7 @@ main .container-about-us{
     overflow: hidden;
     position: relative;
     cursor: pointer;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 8px rgb(0, 0, 0);
     height: 200px;
 }
 
@@ -203,7 +207,7 @@ main .container-about-us{
 .container-card .card{
     background: #232526;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #454541, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: flex;
     width: 46%;
     height: 200px;
