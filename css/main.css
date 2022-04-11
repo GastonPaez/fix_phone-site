@@ -137,7 +137,10 @@ main .container-about-us{
 /* GALERY */
 
 .service {
-    background: rgb(73, 71, 73);
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(top, #454541, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 
 }
 
@@ -264,7 +267,7 @@ footer{
     background: #232526;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding: 60px 0px 30px 0px;
+    padding: 50px 0px 10px 0px;
     margin: auto;
     overflow: hidden;        
 }
@@ -297,8 +300,8 @@ footer{
 .final-title {
     text-align: center;
     font-size: 24px;
-    margin: 20px 0 0 0;
-    color: #605e63;
+    margin: 10px 0 0 0;
+    color: #fff;
 }
 
 
